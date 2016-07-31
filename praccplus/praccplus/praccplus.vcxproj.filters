@@ -16,6 +16,9 @@
     <Filter Include="源文件\stl">
       <UniqueIdentifier>{fa436f73-c043-4c4f-a64b-1274fbe64336}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\util">
+      <UniqueIdentifier>{2c9a7c3a-9144-4fb6-9187-db8b8adfc23f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -27,6 +30,9 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="base.h">
+      <Filter>源文件\util</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -37,6 +43,12 @@
     </ClCompile>
     <ClCompile Include="bind.cpp">
       <Filter>源文件\stl</Filter>
+    </ClCompile>
+    <ClCompile Include="iteratoradapter.cpp">
+      <Filter>源文件\stl</Filter>
+    </ClCompile>
+    <ClCompile Include="base1.cpp">
+      <Filter>源文件\util</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

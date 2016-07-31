@@ -147,9 +147,12 @@
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="base.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="base1.cpp" />
     <ClCompile Include="bind.cpp" />
+    <ClCompile Include="iteratoradapter.cpp" />
     <ClCompile Include="praccplus.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
