@@ -6,8 +6,8 @@
 void iteratoradapter::test() {
 	vector<int> vec = { 1,2,3,4,5 };
 	ostream_iterator<int> out(cout,"<");
-	for (auto x : vec) {
-		out = x;
+	for (vector<int>::iterator iter = vec.begin(); iter != vec.end();iter++) {
+		*out = *iter;
 	}
 }
 

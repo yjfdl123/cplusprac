@@ -3,11 +3,12 @@
 //
 
 #include "stdafx.h"
-#include "base.h"
 #include "iteratoradapter.h"
+#include "mybinder.h"
 int main()
 {
-	iteratoradapter().test();
+	//iteratoradapter().test();
+	mybinder().test();
     return 0;
 }
 

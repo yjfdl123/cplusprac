@@ -13,6 +13,8 @@
 #include <vector>
 #include <algorithm>
 #include <iterator>
+#include <functional>
+//#include "base.h"
 
 using namespace std;
 

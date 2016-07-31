@@ -1,2 +1,0 @@
-//bidn
-# include "stdafx.h"

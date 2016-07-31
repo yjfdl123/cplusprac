@@ -30,10 +30,13 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="base.h">
-      <Filter>源文件\util</Filter>
-    </ClInclude>
     <ClInclude Include="iteratoradapter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mybinder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -44,11 +47,17 @@
     <ClCompile Include="praccplus.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="bind.cpp">
-      <Filter>源文件\stl</Filter>
-    </ClCompile>
     <ClCompile Include="iteratoradapter.cpp">
       <Filter>源文件\stl</Filter>
     </ClCompile>
+    <ClCompile Include="mybinder.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="base.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
 </Project>
