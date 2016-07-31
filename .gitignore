@@ -33,3 +33,6 @@
 *.pdb
 *.db
 *.opendb
+*.log
+*.idb
+*.ipch
