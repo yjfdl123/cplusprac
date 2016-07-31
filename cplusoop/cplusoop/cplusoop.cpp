@@ -2,10 +2,11 @@
 //
 
 #include "stdafx.h"
-
+#include "myfunc.h"
 
 int main()
 {
+	myfunc().test();
     return 0;
 }
 
