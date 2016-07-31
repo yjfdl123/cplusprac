@@ -9,7 +9,7 @@ public:
 	myclass(int x = 0, int y = 0);
 	~myclass();
 	myclass operator+ (const myclass right) const;
-	void  operator<< (const myclass right);
+	friend ostream&  operator<< (ostream &out,myclass right);
 	void print();
 };
 

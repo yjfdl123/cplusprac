@@ -12,9 +12,7 @@ int main()
 	myclass y(3, 4);
 	myclass z = x + y;
 	z.print();
-	//cout << x;
-	//cout << y;
-	//<< y << z;
+	cout << x  << y  << z;
     return 0;
 }
 

@@ -23,8 +23,9 @@ myclass myclass::operator+(const myclass left) const {
 	return sum;
 }
 
-void myclass::operator<<(const myclass left) {
-	cout << x << "  " << y << endl;
+ ostream& operator<<(ostream& ou,myclass right) {
+	cout << right.x << "  " << right.y << endl;
+	return ou;
 }
 
 void myclass::print() {
