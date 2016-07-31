@@ -10,7 +10,10 @@
 #include <stdio.h>
 #include <tchar.h>
 #include <iostream>
+#include <vector>
+#include <algorithm>
+#include <iterator>
 
-
+using namespace std;
 
 // TODO:  在此处引用程序需要的其他头文件

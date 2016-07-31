@@ -33,6 +33,9 @@
     <ClInclude Include="base.h">
       <Filter>源文件\util</Filter>
     </ClInclude>
+    <ClInclude Include="iteratoradapter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -46,9 +49,6 @@
     </ClCompile>
     <ClCompile Include="iteratoradapter.cpp">
       <Filter>源文件\stl</Filter>
-    </ClCompile>
-    <ClCompile Include="base1.cpp">
-      <Filter>源文件\util</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

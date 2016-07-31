@@ -4,10 +4,10 @@
 
 #include "stdafx.h"
 #include "base.h"
-
+#include "iteratoradapter.h"
 int main()
 {
-	print();
+	iteratoradapter().test();
     return 0;
 }
 

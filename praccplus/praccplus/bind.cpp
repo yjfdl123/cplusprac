@@ -1,1 +1,2 @@
 //bidn
+# include "stdafx.h"
