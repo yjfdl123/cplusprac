@@ -16,6 +16,9 @@
     <Filter Include="源文件\func">
       <UniqueIdentifier>{d0b5fddc-2566-4f52-a527-e2df90e75cfa}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\class">
+      <UniqueIdentifier>{28315854-d9df-403b-ab72-5f2caa8ddb52}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -30,6 +33,9 @@
     <ClInclude Include="myfunc.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="myclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -40,6 +46,9 @@
     </ClCompile>
     <ClCompile Include="myfunc.cpp">
       <Filter>源文件\func</Filter>
+    </ClCompile>
+    <ClCompile Include="myclass.cpp">
+      <Filter>源文件\class</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
