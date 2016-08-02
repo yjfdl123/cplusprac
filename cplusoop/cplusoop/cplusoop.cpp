@@ -19,15 +19,39 @@ void test_myclass() {
 }
 
 void test_myinherit() {
-	myinherit x = myinherit(3, 5);
+	myinherit x = myinherit(3, 5,7);
 	x.print();
+}
+
+void test_overload() {
+	myclass a = myclass(1, 2);
+	myinherit b = myinherit(6, 7, 30);
+	myclass* c = &a;
+	cout << "dizhi:" << &c << endl;
+	cout << "test no virturl\n";
+	c->print();
+	c = &b;
+	cout << "dizhi:" << &c << endl;
+	c->print();
+
+	cout << "test virtual\n";
+	myclass* d = &a;
+	cout << "dizhi:" << &d << endl;
+	d->printself();
+	d = &b;
+	cout << "dizhi:" << &d << endl;
+	d->printself();
+	
+	myclass& e = b;
+	b.printself();
 }
 
 int main()
 {
 	//myfunc().test();
-	test_myclass();
+	//test_myclass();
 	//test_myinherit();
+	test_overload();
     return 0;
 }
 

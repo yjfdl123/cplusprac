@@ -39,3 +39,8 @@ myclass& operator* (myclass& left, myclass& right) {
 void myclass::print() {
 	cout << x << "  " << y << endl;
 }
+
+void myclass::printself() {
+	cout << "base printself";
+	print();
+}

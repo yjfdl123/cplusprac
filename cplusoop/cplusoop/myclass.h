@@ -11,14 +11,19 @@ public:
 	friend ostream&  operator<< (ostream &out,myclass right);
 	friend myclass&   operator*(myclass& left, myclass& right);
 	void print();
+	virtual void  printself();
 };
 
 
 class myinherit :
 	public myclass
 {
+private:
+	int z;
 public:
-	myinherit(int x, int y);
+	myinherit(int x, int y,int z);
 	~myinherit();
-	
+	void print();
+	void printinherit();
+	virtual void  printself();
 };
