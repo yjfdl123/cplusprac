@@ -11,8 +11,11 @@ void test_myclass() {
 	myclass x(1, 2);
 	myclass y(3, 4);
 	myclass z = x + y;
-	z.print();
 	cout << x << y << z;
+	myclass& d = x*y;
+	//z.print();
+	
+	cout << d;
 }
 
 void test_myinherit() {
@@ -23,7 +26,8 @@ void test_myinherit() {
 int main()
 {
 	//myfunc().test();
-	test_myinherit();
+	test_myclass();
+	//test_myinherit();
     return 0;
 }
 

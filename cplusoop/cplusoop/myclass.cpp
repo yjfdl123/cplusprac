@@ -2,10 +2,6 @@
 #include "myclass.h"
 
 
-myclass::myclass()
-{
-}
-
 
 myclass::~myclass()
 {
@@ -23,10 +19,22 @@ myclass myclass::operator+(const myclass left) const {
 	return sum;
 }
 
+myclass& operator* (myclass& left, myclass& right) {
+	left.x *= right.x;
+	left.y *= right.y;
+	return left;
+}
+
  ostream& operator<<(ostream& ou,myclass right) {
+	
 	cout << right.x << "  " << right.y << endl;
 	return ou;
 }
+
+ myclass operator*(myclass & left, myclass right)
+ {
+	 return myclass();
+ }
 
 void myclass::print() {
 	cout << x << "  " << y << endl;
