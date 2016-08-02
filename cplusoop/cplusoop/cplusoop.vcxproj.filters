@@ -19,6 +19,9 @@
     <Filter Include="源文件\class">
       <UniqueIdentifier>{28315854-d9df-403b-ab72-5f2caa8ddb52}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\inherit">
+      <UniqueIdentifier>{e47befb7-41ba-4e7a-b447-d7d1d77df44d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -36,6 +39,9 @@
     <ClInclude Include="myclass.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="myinherit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -49,6 +55,9 @@
     </ClCompile>
     <ClCompile Include="myclass.cpp">
       <Filter>源文件\class</Filter>
+    </ClCompile>
+    <ClCompile Include="myinherit.cpp">
+      <Filter>源文件\inherit</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
