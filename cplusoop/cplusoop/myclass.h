@@ -13,3 +13,11 @@ public:
 	void print();
 };
 
+
+class myinherit :
+	public myclass
+{
+public:
+	myinherit(int x, int y);
+	~myinherit();
+};

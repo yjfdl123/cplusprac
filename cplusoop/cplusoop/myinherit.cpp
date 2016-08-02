@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "myinherit.h"
+#include "myclass.h"
 
 
 myinherit::myinherit(int x,int y):myclass(x,y)
